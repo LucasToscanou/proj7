@@ -1,0 +1,11 @@
+{
+  "items": [
+    { "name": "Margherita Pizza", "qty": 1, "price": 14.50 },
+    { "name": "Caesar Salad", "qty": 2, "price": 18.00 },
+    { "name": "Sparkling Water", "qty": 3, "price": 9.00 },
+    { "name": "Tiramisu", "qty": 1, "price": 8.00 }
+  ],
+  "subtotal": 49.50,
+  "serviceFeePct": 12.5,
+  "total": 55.69
+}

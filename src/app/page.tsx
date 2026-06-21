@@ -2,35 +2,26 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen px-4 py-12 text-center">
-      <div className="max-w-sm w-full space-y-8">
-        <div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            🧾 Receipt Splitter
-          </h1>
-          <p className="text-gray-500 text-lg">
-            Scan a receipt, pick your items, split the bill.
-          </p>
-        </div>
-
-        <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 space-y-4">
-          <p className="text-gray-600 text-sm">
-            Take a photo of your restaurant or bar receipt. We&apos;ll identify
-            every item so your group can each pick what they had &mdash; no app to
-            download.
-          </p>
-          <Link
-            href="/scan"
-            className="block w-full bg-indigo-600 text-white py-4 rounded-xl text-lg font-semibold text-center active:bg-indigo-700 transition-colors"
-          >
-            Scan a receipt
-          </Link>
-        </div>
-
-        <p className="text-gray-400 text-xs">
-          Works in your phone browser &middot; No app needed
+    <main className="flex flex-col items-center justify-center flex-1 px-6 py-12 gap-8">
+      <div className="text-center">
+        <h1 className="text-3xl font-bold text-gray-900 mb-2">Receipt Split</h1>
+        <p className="text-gray-500 text-base leading-relaxed">
+          Scan a restaurant receipt and let everyone pick what they had — no app to download.
         </p>
       </div>
+
+      <div className="w-full flex flex-col gap-4">
+        <Link
+          href="/scan"
+          className="w-full rounded-2xl bg-indigo-600 text-white text-center py-4 text-lg font-semibold active:bg-indigo-700 transition-colors"
+        >
+          Scan a Receipt
+        </Link>
+      </div>
+
+      <p className="text-xs text-gray-400 text-center">
+        This app splits the bill only — it never handles payments.
+      </p>
     </main>
   );
 }

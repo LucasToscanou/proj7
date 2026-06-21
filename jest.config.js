@@ -1,13 +1,11 @@
-const nextJest = require("next/jest");
-
-const createJestConfig = nextJest({ dir: "./" });
-
-const customJestConfig = {
-  coverageProvider: "v8",
+/** @type {import('jest').Config} */
+const config = {
+  preset: "ts-jest",
   testEnvironment: "node",
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
   },
+  testMatch: ["**/__tests__/**/*.test.ts", "**/__tests__/**/*.test.tsx"],
 };
 
-module.exports = createJestConfig(customJestConfig);
+module.exports = config;
