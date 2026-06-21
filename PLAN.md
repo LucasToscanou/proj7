@@ -9,7 +9,7 @@ repo buildable and runnable.
 
 ## Milestones
 
-- [ ] **1. Scaffold the Next.js app.** Create a Next.js (App Router, TypeScript) project with
+- [x] **1. Scaffold the Next.js app.** Create a Next.js (App Router, TypeScript) project with
       a mobile-first layout and a `GET /api/health` route handler.
       *Done:* `npm run dev` serves a mobile-friendly home page; `/api/health` returns 200; README explains how to run it.
 
