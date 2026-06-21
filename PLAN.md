@@ -13,11 +13,11 @@ repo buildable and runnable.
       a mobile-first layout and a `GET /api/health` route handler.
       *Done:* `npm run dev` serves a mobile-friendly home page; `/api/health` returns 200; README explains how to run it.
 
-- [ ] **2. Receipt capture.** A page where a user takes or uploads a receipt photo using the
+- [x] **2. Receipt capture.** A page where a user takes or uploads a receipt photo using the
       browser (file input with `capture` / getUserMedia) and submits it.
       *Done:* selecting/capturing an image uploads it to `POST /api/receipts` and shows a loading state.
 
-- [ ] **3. Receipt parsing.** `POST /api/receipts` sends the image to the Claude vision API and
+- [x] **3. Receipt parsing.** `POST /api/receipts` sends the image to the Claude vision API and
       returns structured JSON: `{ items: [{name, qty, price}], subtotal, serviceFeePct, total }`.
       Read the API key from an env var. Include a sample receipt fixture and a test.
       *Done:* posting the sample image returns correctly structured items + detected service-fee %; test passes.
