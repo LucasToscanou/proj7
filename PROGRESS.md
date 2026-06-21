@@ -40,3 +40,4 @@ session each hour continue where the previous one stopped.
 - 2026-06-21: Scaffolded Next.js 15 app (Task 1). Created project structure, health API route, test, mobile-first layout. Build and `npm test` pass.
 - 2026-06-21: Receipt capture + parsing (Tasks 2 & 3). `/scan` page, `POST /api/receipts` → Claude vision, `/items` display, sample fixture, tests. Build clean, 5 tests pass.
 - 2026-06-21: Completed Tasks 4–9 in one run. Selectable items UI, sessions API + QR creator page, guest join flow with name entry, Socket.IO real-time pick/lock via custom server (tsx), split calculation utility with 4 unit tests, and summary screen. 12 tests pass, tsc clean. Full app is end-to-end complete per PLAN.md.
+- 2026-06-21: Routine check — all 9 PLAN.md tasks remain complete, PR #1 open and up to date, no new work to do. Nothing to do this run.
