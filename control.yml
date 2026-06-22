@@ -2,7 +2,7 @@
 # The agent reads this file FIRST on every run and obeys it before doing any work.
 
 # Hard pause: while true, the agent does nothing on every run until you set it back to false.
-paused: false
+paused: true
 
 # Soft skip: the agent does nothing until this UTC date (format YYYY-MM-DD), then auto-resumes.
 # Use this for "take the night off" without having to remember to turn it back on.
