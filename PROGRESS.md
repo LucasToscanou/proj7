@@ -63,3 +63,4 @@ session each hour continue where the previous one stopped.
 - 2026-06-22: Routine check — reset to remote after local scaffold conflict. All 9 milestones confirmed complete, 12 tests pass, PR #1 open and up to date. PLAN.md fully done; no new work.
 - 2026-06-22: Routine check — reset to remote after local scaffold conflict. All 9 milestones confirmed complete, npm install + 12 tests pass, PR #1 open and up to date. PLAN.md fully done; no new work.
 - 2026-06-22: Routine check — all 9 milestones confirmed complete, 12 tests pass, PR #1 open and up to date. PLAN.md fully done; no new work.
+- 2026-06-22: Routine check — reset to remote after local scaffold conflict (stale session context). All 9 milestones confirmed complete, 12 tests pass, PR #1 open and up to date. PLAN.md fully done; no new work.
